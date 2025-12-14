@@ -145,7 +145,7 @@ export const projects = [
     tech: ["React.js", "Clerk", "Tailwind CSS", 'Clerk Authentication'],
     icons: [FaRobot, FaReact, FaCloud],
     demo: "https://github.com/naz781/hotelvercel/blob/main/README.md",
-    code: "https://github.com/naz781/hotel"
+    code: "https://github.com/naz781/hotelvercel"
   }
 ];
 
