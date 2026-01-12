@@ -1,4 +1,4 @@
-import { FaLightbulb, FaPaintBrush, FaCode, FaLock, FaReact, FaServer, FaMobileAlt, FaTools, FaNodeJs, FaStripe, FaVuejs, FaFire, FaDatabase, FaCloud, FaRobot } from 'react-icons/fa';
+import { FaLightbulb, FaPaintBrush, FaCode, FaLock, FaReact, FaServer, FaMobileAlt, FaTools, FaNodeJs, FaStripe, FaVuejs, FaFire, FaDatabase, FaCloud, FaRobot, FaNewspaper } from 'react-icons/fa';
 
 import profileImg from '../assets/profile.avif';
 import projectImg1 from '../assets/project1.avif';
@@ -7,13 +7,14 @@ import projectImg3 from '../assets/project3.avif';
 import projectImg4 from '../assets/project4.avif';
 import projectImg5 from '../assets/project5.avif';
 import projectImg6 from '../assets/project6.avif';
-
+import projectImg7 from '../assets/project7.avif';
+import projectImg8 from '../assets/project8.avif';
+import projectImg9 from '../assets/project9.avif';
 
 
 export const assets = {
   profileImg,
 }
-
 
 export const aboutInfo = [
   {
@@ -94,6 +95,15 @@ export const skills = [
 
 export const projects = [
   {
+    title: "Chinese Resturant Website",
+    description: "Created a modern restaurant website for KhaoHC featuring parallax scrolling, immersive visuals, and a user-friendly design.",
+    image: projectImg6,
+    tech: ["React.js", "Tailwind CSS", "Parallex Scrolling", "Typescript"],
+    icons: [FaReact, FaCloud, FaNodeJs],
+    demo: "http://www.khaohc.com/",
+    code: "https://github.com/naz781/Pakistani-Chinese-Fusion-Website",
+  },
+  {
     title: "E-Commerce Platform",
     description: "Online store with shopping cart, authentication, and payment integration. Manage products and track orders efficiently.",
     image: projectImg1,
@@ -103,13 +113,13 @@ export const projects = [
     code: "https://github.com/naz781/Ecommerce-Website",
   },
   {
-    title: "Expense Tracker Web App",
-    description: "A responsive expense tracking application that allows users to manage, categorize, and track expenses with real-time updates.",
-    image: projectImg2,
-    tech: ["React.js", "Firebase", "Tailwind CSS", "Vercel"],
-    icons: [FaReact, FaCloud, FaDatabase],
-    demo: "https://moneycanvas.vercel.app/",
-    code: "https://github.com/naz781/Expense-Tracker",
+    title: "Swirl Ice-Cream",
+    description: "A high-performance website featuring fluid animations and a modern UI, optimized for seamless user engagement and visual impact.",
+    image: projectImg8,
+    tech: ["React.js", "Tailwind CSS", "GSAP Animations"],
+    icons: [FaReact, FaPaintBrush],
+    demo: "https://swirl-murex.vercel.app/",
+    code: "https://github.com/naz781/BeachGem-Landing-Page",
   },
   {
     title: "AI Text Processing Tool",
@@ -122,7 +132,7 @@ export const projects = [
   },
   {
     title: "Family Recipe Treasure Platform",
-    description: "Role-based recipe manager for adding, editing, and viewing recipes. Share recipes with friends and explore favorites.",
+    description: "Role-based recipe manager for adding, editing, and viewing recipes. Share recipes with friends and family and explore favorites.",
     image: projectImg4,
     tech: ["React.js", "Tailwind CSS", "Supabase", 'Supabase Auth'],
     icons: [FaReact, FaDatabase, FaLock],
@@ -130,23 +140,41 @@ export const projects = [
     code: "https://github.com/naz781/RecipeTreasure",
   },
   {
-    title: "AI-Powered LMS Chatbot",
-    description: "An AI chatbot for a Learning Management System that answers student queries using organization-specific learning data.",
+    title: "News Portal Project",
+    description: "GNews API-based news portal delivering live updates, category filtering, light/dark theme and a seamless, responsive reading experience.",
     image: projectImg5,
-    tech: ["React.js", "Ollama", "Vector DB", "Supabase"],
-    icons: [FaReact, FaRobot, FaDatabase],
-    demo: "https://github.com/naz781/infoTax-react-AI-",
-    code: "https://github.com/naz781/infoTax-react-AI-",
+    tech: ["React.js", "Tailwind CSS", "GNEWS API", "Vercel"],
+    icons: [FaReact, FaCloud, FaNewspaper],
+    demo: "https://dailynews-five-bay.vercel.app/",
+    code: "https://github.com/naz781/news",
   },
   {
-    title: "Hotel Booking",
-    description: "A responsive and interactive website that allows users to browse, view, and book hotels, with a dashboard to track customer’s past bookings.",
-    image: projectImg6,
-    tech: ["React.js", "Clerk", "Tailwind CSS", 'Clerk Authentication'],
-    icons: [FaRobot, FaReact, FaCloud],
-    demo: "https://github.com/naz781/hotelvercel/blob/main/README.md",
-    code: "https://github.com/naz781/hotelvercel"
-  }
+    title: "BeachGem Jewelery",
+    description: " A high-performance jewelry e-commerce site built with React, Tailwind, and Lovable, featuring a robust Supabase-PostgreSQL backend.",
+    image: projectImg7,
+    tech: ["React.js", "Tailwind CSS", "Supabase", "PostgreSQL"],
+    icons: [FaReact, FaPaintBrush],
+    demo: "https://beachgem.vercel.app/",
+    code: "https://github.com/naz781/BeachGem-Landing-Page",
+  },
+  {
+    title: "Expense Tracker Web App",
+    description: "A responsive expense tracking application that allows users to manage, categorize, and track expenses with real-time updates.",
+    image: projectImg2,
+    tech: ["React.js", "Firebase", "Tailwind CSS", "Vercel"],
+    icons: [FaReact, FaCloud, FaDatabase],
+    demo: "https://moneycanvas.vercel.app/",
+    code: "https://github.com/naz781/Expense-Tracker",
+  },
+  {
+    title: "Soota Smoke Shop",
+    description: "A high-performance website featuring fluid animations and a modern UI, optimized for seamless user engagement and visual impact.",
+    image: projectImg9,
+    tech: ["React.js", "Tailwind CSS", "Framer Motion", "Typescript"],
+    icons: [FaReact, FaPaintBrush],
+    demo: "https://website-5e8f7224.weh.ktb.temporary.site/",
+    code: "https://github.com/AliNaseem123456789/Smoke-wholesale"
+  },
 ];
 
 
